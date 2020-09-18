@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private var rabbit = Rabbit()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        rabbit.run(script: "script")
     }
 
 

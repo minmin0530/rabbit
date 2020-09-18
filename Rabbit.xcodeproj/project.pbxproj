@@ -15,6 +15,8 @@
 		6B5F1A8225157E96009E41D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5F1A8025157E96009E41D7 /* LaunchScreen.storyboard */; };
 		6B5F1A8D25157E96009E41D7 /* RabbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F1A8C25157E96009E41D7 /* RabbitTests.swift */; };
 		6B5F1A9825157E96009E41D7 /* RabbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F1A9725157E96009E41D7 /* RabbitUITests.swift */; };
+		6B5F1AA925157F82009E41D7 /* script.jump in Resources */ = {isa = PBXBuildFile; fileRef = 6B5F1AA825157F82009E41D7 /* script.jump */; };
+		6B5F1AAE25157F95009E41D7 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F1AAD25157F95009E41D7 /* Rabbit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6B5F1A9325157E96009E41D7 /* RabbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RabbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5F1A9725157E96009E41D7 /* RabbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitUITests.swift; sourceTree = "<group>"; };
 		6B5F1A9925157E96009E41D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5F1AA825157F82009E41D7 /* script.jump */ = {isa = PBXFileReference; lastKnownFileType = text; path = script.jump; sourceTree = "<group>"; };
+		6B5F1AAD25157F95009E41D7 /* Rabbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rabbit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6B5F1A7E25157E96009E41D7 /* Assets.xcassets */,
 				6B5F1A8025157E96009E41D7 /* LaunchScreen.storyboard */,
 				6B5F1A8325157E96009E41D7 /* Info.plist */,
+				6B5F1AA825157F82009E41D7 /* script.jump */,
+				6B5F1AAD25157F95009E41D7 /* Rabbit.swift */,
 			);
 			path = Rabbit;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				6B5F1A8225157E96009E41D7 /* LaunchScreen.storyboard in Resources */,
 				6B5F1A7F25157E96009E41D7 /* Assets.xcassets in Resources */,
+				6B5F1AA925157F82009E41D7 /* script.jump in Resources */,
 				6B5F1A7D25157E95009E41D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 				6B5F1A7A25157E95009E41D7 /* ViewController.swift in Sources */,
 				6B5F1A7625157E95009E41D7 /* AppDelegate.swift in Sources */,
 				6B5F1A7825157E95009E41D7 /* SceneDelegate.swift in Sources */,
+				6B5F1AAE25157F95009E41D7 /* Rabbit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

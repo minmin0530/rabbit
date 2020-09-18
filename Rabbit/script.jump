@@ -1,0 +1,90 @@
+class Game {
+    var frame = 0
+
+    func initialize() {
+        frame = 1234
+        print(frame)
+    }
+
+    func mainLoop() {
+        var count = 0
+        while(true) {
+            count += 1
+            if (count > 10) {
+                break
+            }
+        }
+    }
+}
+
+var count = 0
+
+func initialize() {
+  var str = "hello"
+  print(str)
+  print("direct!")
+  var str2 = "hello22"
+  print(str2)
+
+}
+
+func loop() {
+  var str = "play game..."
+  print(str)
+  
+  var i = 0
+  while (i < 5) {
+    i += 1
+    print(i)
+  }
+  
+  return i
+}
+
+func finalize() {
+  var str = "good bye"
+  print(str)
+  print(loop())
+}
+
+func arithmetic() {
+  var result = 1 + 2
+  result += 4
+  result += 5
+  print(result)
+}
+
+func test(arg1) {
+  print(arg1)
+}
+
+func test2(arg21, arg22) {
+  if (arg21 == 1234) {
+    print(arg21)
+  } else {
+    print(arg22)
+  }
+}
+
+func onTouchDown(x,y) {
+  print(x)
+  print(y)
+}
+
+func jumpToHostLanguage() {
+  count += 1
+  jump count
+}
+
+func main() {
+  Game game = Game()
+  game.initialize()
+  
+  initialize()
+  loop()
+  finalize()
+  test("abcd")
+  test2(123, "xyz")
+  arithmetic()
+}
+
